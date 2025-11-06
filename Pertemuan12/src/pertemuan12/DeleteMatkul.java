@@ -199,11 +199,10 @@ public class DeleteMatkul extends javax.swing.JDialog {
                     MataKuliah mk = hasil.get(0);
 
                     em.remove(mk);
+                    JOptionPane.showMessageDialog(this, "Data " + kodeLama[i] + " berhasil dihapus!");
                 }
             }
             em.getTransaction().commit();
-
-            JOptionPane.showMessageDialog(this, "Data berhasil dihapus!");
             dispose();
 
         } catch (Exception e) {
