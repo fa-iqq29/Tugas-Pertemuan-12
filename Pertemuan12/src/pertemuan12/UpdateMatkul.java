@@ -47,6 +47,7 @@ public class UpdateMatkul extends javax.swing.JDialog {
         this.dosenLama = dosenLama;
 
         txtKode.setText(kodeLama);
+        txtKode.setEnabled(false);
         txtNama.setText(namaLama);
         txtSemester.setText(semesterLama);
         for (int i = 0; i < jComboBox1.getItemCount(); i++) {
