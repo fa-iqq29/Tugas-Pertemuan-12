@@ -212,7 +212,7 @@ public class DeleteDosen extends javax.swing.JDialog {
                     Dosen d = hasil.get(0);
 
                     em.remove(d);
-                    JOptionPane.showMessageDialog(this, "Data berhasil dihapus!");
+                    JOptionPane.showMessageDialog(this, "Data " + idLama[i] + " berhasil dihapus!");
                 }
             }
 
