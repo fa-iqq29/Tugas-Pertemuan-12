@@ -46,6 +46,7 @@ public class UpdateDosen extends javax.swing.JDialog {
         this.emailLama = emailLama;
 
         txtKode.setText(idLama);
+        txtKode.setEnabled(false);
         txtNama.setText(namaDosenlama);
         txtSemester.setText(nipLama);
         jTextField1.setText(emailLama);
